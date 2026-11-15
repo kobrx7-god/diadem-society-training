@@ -28,3 +28,5 @@ details{border-top:1px solid var(--l);padding:.9rem 0}summary{cursor:pointer;fon
 .rv{opacity:0;transform:translateY(24px);transition:opacity .7s,transform .7s}.rv.in{opacity:1;transform:none}
 .sp{position:relative;overflow:hidden}.sp:before{content:"";position:absolute;inset:0;background:radial-gradient(360px circle at var(--x,50%) var(--y,50%),#e9c46a2e,#e9c46a0f 45%,transparent 75%);opacity:0;transition:opacity .3s;pointer-events:none}.sp:hover:before{opacity:1}
 footer{text-align:center;color:var(--m);font-size:.78rem;padding:2rem 1rem;border-top:1px solid var(--l)}
+
+.row>a{text-decoration:none;color:var(--t);transition:border-color .25s,transform .25s}.row>a:hover{border-color:var(--gold);transform:translateY(-3px)}
